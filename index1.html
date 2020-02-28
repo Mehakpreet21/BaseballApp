@@ -2,84 +2,82 @@
 <html class="no-js" lang="">
 
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" rel="stylesheet">
+    <script crossorigin="anonymous"
             integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-            crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script crossorigin="anonymous"
             integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script crossorigin="anonymous"
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-            crossorigin="anonymous"></script>
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <meta charset="utf-8">
-    <title>Baseball</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="apple-touch-icon" href="icon.png">
+    <title>Baseball</title>
+    <meta content="" name="description">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <link href="site.webmanifest" rel="manifest">
+    <link href="icon.png" rel="apple-touch-icon">
     <!-- Place favicon.ico in the root directory -->
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
-    <meta name="theme-color" content="#fafafa">
+    <meta content="#fafafa" name="theme-color">
 </head>
 <body>
 <!--[if IE]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
     your browser</a> to improve your experience and security.</p>
 <![endif]-->
-
 <!-- Add your site or application content here -->
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light ">
-    <a class="navbar-brand" href="#">Icon Inserted</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-light bg-dark dropdown-content" id="navbar">
+    <a class="navbar-brand" href="index1.html">Icon Inserted</a>
+    <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+            data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
         <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index1.html">About <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Teams <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="Teams.html">Teams <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="#">Contact Us<span class="sr-only">(current)</span></a>
             </li>
         </ul>
-        <div class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-               aria-haspopup="true" aria-expanded="false">
-                Dropdown
-            </a>
+        <div class="dropdown dropdown-content">
+            <button aria-expanded="false" aria-haspopup="true" class="btn btn-secondary dropdown-toggle"
+                    data-toggle="dropdown" id="dropdownMenuButton" type="button">
+                Dropdown button
+            </button>
             <div class="dropdown-menu">
                 <form class="px-4 py-3">
                     <div class="form-group">
                         <label for="exampleDropdownFormEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleDropdownFormEmail1"
-                               placeholder="email@example.com">
+                        <input class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com"
+                               type="email">
                     </div>
                     <div class="form-group">
                         <label for="exampleDropdownFormPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleDropdownFormPassword1"
-                               placeholder="Password">
+                        <input class="form-control" id="exampleDropdownFormPassword1" placeholder="Password"
+                               type="password">
                     </div>
                     <div class="form-group">
                         <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                            <input class="form-check-input" id="dropdownCheck" type="checkbox">
                             <label class="form-check-label" for="dropdownCheck">
                                 Remember me
                             </label>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Sign in</button>
+                    <button class="btn btn-primary" type="submit">Sign in</button>
                 </form>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">New around here? Sign up</a>
@@ -89,12 +87,12 @@
 
 
         <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <input aria-label="Search" class="form-control mr-sm-2" placeholder="Search" type="search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
     </div>
 </nav>
-<div class="jumbotron">
+<div class="jumbotron" style="z-index: -1">
     <h1 class="display-4">
         <center>Teaming Up!</center>
     </h1>
@@ -108,85 +106,73 @@
     <center>It uses utility classes for typography and spacing to space content out within the larger container.
     </center>
     </p>
-    <center><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</center>
-    </a>
+    <center><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></center>
 </div>
-<div class="container pageMargin centered">
-    <div class="row row-cols-4">
-        <div class="col-4 "><div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
+<center>
+    <div class="container  centered" style="z-index: -1">
+        <div class="row row-cols-4">
+            <div class="col-4">
+                <div class="card" style="max-width:100%;height:auto;">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a class="card-link" href="#">Card link</a>
+                        <a class="card-link" href="#">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="max-width:100%;height:auto;">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a class="card-link" href="#">Card link</a>
+                        <a class="card-link" href="#">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="max-width:100%;height:auto;">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a class="card-link" href="#">Card link</a>
+                        <a class="card-link" href="#">Another link</a>
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
-        <div class="col-4"><div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
+        <br><br>
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="img/ridhitbaseball2.jpg" class="card-img-top" alt="..." style="width:auto;max-height:30%;">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="img/ridhitbaseball2.jpg" class="card-img-top" alt="..." style="width:auto;max-height:30%;">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
-        <div class="col-4"><div class="card" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-        </div>
     </div>
-    </div>
-        <div class="col-4"><div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-            </div>
-        </div>
-        </div>
-    </div>
-</div>
-<table class="table table-dark">
-    <thead>
-    <tr>
-        <th scope="col">#</th>
-        <th scope="col">First</th>
-        <th scope="col">Last</th>
-        <th scope="col">Handle</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-    </tr>
-    <tr>
-        <th scope="row">2</th>
-        <td>Jacob</td>
-        <td>Thornton</td>
-        <td>@fat</td>
-    </tr>
-    <tr>
-        <th scope="row">3</th>
-        <td>Larry</td>
-        <td>the Bird</td>
-        <td>@twitter</td>
-    </tr>
-    </tbody>
-</table>
+</center>
 <footer>
-    <div class="footer-gray">
+    <div class="footer-gray" style="max-width:100%;height:auto;">
         <div class="footer-custom">
             <div class="footer-lists">
                 <div class="footer-list-wrap">
@@ -241,21 +227,19 @@
             <!--/.footer-lists-->
             <div class="footer-email">
                 <h6 class="ftr-hdr">Sign up for updates</h6>
-                <div id="ftr-email" class="ftr-email-form">
-                    <form id="ftrEmailForm" method="post" action="http://em.art.com/pub/rf">
+                <div class="ftr-email-form" id="ftr-email">
+                    <form action="http://em.art.com/pub/rf" id="ftrEmailForm" method="post">
                         <div class="error">Please enter a valid email address</div>
-                        <input type="text" name="email_address_" id="ftrEmailInput" class="input"
-                               placeholder="Enter email address"/>
-                        <!--
-                            -->
-                        <input type="submit" class="button" value="SUBMIT"/>
-                        <input type="hidden" name="country_iso2" value="">
-                        <input type="hidden" name="language_iso2" value="en">
-                        <input type="hidden" name="site_domain" value="art.com">
-                        <input type="hidden" name="email_acq_source" value="01-000001">
-                        <input type="hidden" name="email_acq_date" value="" id="ftr-email-date">
-                        <input type="hidden" name="brand_id" value="ART">
-                        <input type="hidden" name="_ri_"
+                        <input class="input" id="ftrEmailInput" name="email_address_" placeholder="Please enter email address"
+                               type="text"/>
+                        <input class="button" type="submit" value="Sign Up"/>
+                        <input name="country_iso2" type="hidden" value="">
+                        <input name="language_iso2" type="hidden" value="en">
+                        <input name="site_domain" type="hidden" value="art.com">
+                        <input name="email_acq_source" type="hidden" value="01-000001">
+                        <input id="ftr-email-date" name="email_acq_date" type="hidden" value="">
+                        <input name="brand_id" type="hidden" value="ART">
+                        <input name="_ri_" type="hidden"
                                value="X0Gzc2X%3DWQpglLjHJlYQGnp51yrMf2qXdC9tjU8pzgMtwfYzaVwjpnpgHlpgneHmgJoXX0Gzc2X%3DWQpglLjHJlYQGnyLSq2fzdkuzdzglHMsUhgeNzaSgkk">
                     </form>
                 </div>
@@ -267,36 +251,36 @@
                 <h6 class="ftr-hdr">Follow Us</h6>
                 <ul>
                     <li>
-                        <a href="#" title="Facebook"
-                           onclick="_gaq.push(['_trackSocial', 'Facebook', 'Follow', 'Footer', 'undefined', 'True']);">
-                            <img width="24" height="24" alt="Like us on Facebook"
-                                 src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/fb.png">
+                        <a href="#" onclick="_gaq.push(['_trackSocial', 'Facebook', 'Follow', 'Footer', 'undefined', 'True']);"
+                           title="Facebook">
+                            <img alt="Like us on Facebook" height="24" src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/fb.png"
+                                 width="24">
                         </a>
                     </li>
                     <li>
-                        <a href="#" title="Google+"
-                           onclick="_gaq.push(['_trackSocial', 'GooglePlus', 'Follow', 'Footer', 'undefined', 'True']);">
-                            <img width="24" height="24" alt="Follow us on Google+"
-                                 src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/gplus.png">
+                        <a href="#" onclick="_gaq.push(['_trackSocial', 'GooglePlus', 'Follow', 'Footer', 'undefined', 'True']);"
+                           title="Google+">
+                            <img alt="Follow us on Google+" height="24" src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/gplus.png"
+                                 width="24">
                         </a>
                     </li>
                     <li>
                         <a href="#" target="_blank">
-                            <img width="24" height="24" alt="Follow us on Pinterest"
-                                 src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/pin-badge.png">
+                            <img alt="Follow us on Pinterest" height="24" src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/pin-badge.png"
+                                 width="24">
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" href="#">
-                            <img width="24" height="24" alt="Follow us on Instagram"
-                                 src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/instagram-badge.png">
+                        <a href="#" target="_blank">
+                            <img alt="Follow us on Instagram" height="24" src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/instagram-badge.png"
+                                 width="24">
                         </a>
                     </li>
                     <li>
-                        <a href="3" title="Twitter"
-                           onclick="_gaq.push(['_trackSocial', 'Twitter', 'Follow', 'Footer', 'undefined', 'True']);">
-                            <img width="67" alt="Follow us on Twitter"
-                                 src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/twitter.png">
+                        <a href="3" onclick="_gaq.push(['_trackSocial', 'Twitter', 'Follow', 'Footer', 'undefined', 'True']);"
+                           title="Twitter">
+                            <img alt="Follow us on Twitter" src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/twitter.png"
+                                 width="67">
                         </a>
                     </li>
                 </ul>
